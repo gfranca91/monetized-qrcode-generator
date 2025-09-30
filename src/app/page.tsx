@@ -79,7 +79,6 @@ export default function Home() {
             className="w-64 h-64 bg-white p-4 flex items-center justify-center rounded-lg"
           >
             {text ? (
-              // Passo 2: Usamos o novo componente. Ele se ajusta automaticamente.
               <QRCode
                 value={text}
                 size={256}
